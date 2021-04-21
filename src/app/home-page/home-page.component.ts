@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {NewsServiceService} from '../news-service.service';
+import { Article } from '../Models/Article';
 
 @Component({
   selector: 'app-home-page',
@@ -8,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
   news_articles: Article[] = []
 
-  constructor(private news_service: NewsService) { }
+  constructor(private news_service: NewsServiceService) { }
 
   ngOnInit(): void {
   }

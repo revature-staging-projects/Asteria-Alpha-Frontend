@@ -1,11 +1,8 @@
-/* Show it is fixed to the top */
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+
+.body {
+  padding-top: 65px; ;
 }
+
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
@@ -18,7 +15,7 @@ nav{
 }
 
 /* Show it is fixed to the top */
-body {
+#flex_parent {
   min-height: 75rem;
   padding-top: 4.5rem;
 }

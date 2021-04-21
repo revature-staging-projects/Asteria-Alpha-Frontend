@@ -1,0 +1,15 @@
+
+
+#flex_parent {
+  display:flex;
+  flex-direction:column;
+}
+
+#header {
+  flex-grow: 1;
+}
+
+#body {
+  flex-grow: 5;
+}
+
