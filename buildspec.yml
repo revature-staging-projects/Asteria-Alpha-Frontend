@@ -8,6 +8,3 @@ phases:
   build:
     commands:
       - npm run build
-  post_build:
-    commands:
-      - aws s3 sync ./dist/Asteria-Alpha-frontend s3://asteria-frontend-dev
