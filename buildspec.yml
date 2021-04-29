@@ -10,4 +10,4 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./dist/asap-ui s3://asteria-frontend-dev
+      - aws s3 sync ./dist/Asteria-Alpha s3://asteria-frontend-dev
